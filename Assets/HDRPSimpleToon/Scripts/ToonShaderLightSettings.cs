@@ -6,17 +6,17 @@ using UnityEngine;
 public class ToonShaderLightSettings : MonoBehaviour
 {
 
-	private Light light;
+	private Light mainLight;
 
 	void OnEnable()
 	{
-		light = GetComponent<Light>();
+		mainLight = GetComponent<Light>();
 	}
 	
 	void Update ()
 	{
 		Shader.SetGlobalVector("_ToonLightDirection", -transform.forward);
-		Shader.SetGlobalColor("_ToonLightColor", light.color);
-        Shader.SetGlobalFloat("_ToonLightIntensity", light.intensity);
+		Shader.SetGlobalColor("_ToonLightColor", mainLight.color);
+        Shader.SetGlobalFloat("_ToonLightIntensity", mainLight.intensity);
 	}
 }
