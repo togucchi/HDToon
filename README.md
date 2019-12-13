@@ -1,7 +1,7 @@
 # HDToon
 Toon Shader for Unity HDRP (High Definition Rendering Pipeline).
 
-![Thumbnail](https://github.com/togucchi/HDToon/blob/thumbnails/hdtoon_thumbnail.png)
+![Thumbnail](https://github.com/togucchi/HDToon/blob/thumbnails/thumbnail2.png)
 
 ## Testing Environment
 - Unity 2019.3.0f3
