@@ -3,7 +3,7 @@
 --- !u!30 &1
 GraphicsSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
   m_Deferred:
     m_Mode: 1
     m_Shader: {fileID: 69, guid: 0000000000000000f000000000000000, type: 0}
@@ -35,10 +35,13 @@ GraphicsSettings:
   - {fileID: 15106, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 16000, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 16001, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 17000, guid: 0000000000000000f000000000000000, type: 0}
   m_PreloadedShaders: []
   m_SpritesDefaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000,
     type: 0}
-  m_CustomRenderPipeline: {fileID: 11400000, guid: 3927e36d6d8a64b4ebb7c2d46f265d28,
+  m_CustomRenderPipeline: {fileID: 11400000, guid: 3e2e6bfc59709614ab90c0cd7d755e48,
     type: 2}
   m_TransparencySortMode: 0
   m_TransparencySortAxis: {x: 0, y: 0, z: 1}
@@ -61,7 +64,7 @@ GraphicsSettings:
       prefer32BitShadowMaps: 0
       enableLPPV: 1
       useDitherMaskForAlphaBlendedShadows: 1
-    m_Automatic: 0
+    m_Automatic: 1
   - serializedVersion: 5
     m_BuildTarget: 1
     m_Tier: 1
@@ -78,7 +81,7 @@ GraphicsSettings:
       prefer32BitShadowMaps: 0
       enableLPPV: 1
       useDitherMaskForAlphaBlendedShadows: 1
-    m_Automatic: 0
+    m_Automatic: 1
   - serializedVersion: 5
     m_BuildTarget: 1
     m_Tier: 2
@@ -95,7 +98,7 @@ GraphicsSettings:
       prefer32BitShadowMaps: 0
       enableLPPV: 1
       useDitherMaskForAlphaBlendedShadows: 1
-    m_Automatic: 0
+    m_Automatic: 1
   - serializedVersion: 5
     m_BuildTarget: 4
     m_Tier: 0
@@ -128,3 +131,5 @@ GraphicsSettings:
   m_AlbedoSwatchInfos: []
   m_LightsUseLinearIntensity: 1
   m_LightsUseColorTemperature: 1
+  m_LogWhenShaderIsCompiled: 0
+  m_AllowEnlightenSupportForUpgradedProject: 0
