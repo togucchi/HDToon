@@ -1,12 +1,22 @@
-# HDRPSimpleToonShader
-UnityのHDRP用のシンプルなトゥーンシェーダー
+# HDToon
 
-Toon Shader for High Definition Rendering Pipeline.
+![Thumbnail](https://github.com/togucchi/HDToon/blob/thumbnails/hdtoon_thumbnail.png)
 
-## 使い方
-- シーンのDirectional LightにToonShaderLightSettingsをアタッチ
+Toon Shader for Unity HDRP (High Definition Rendering Pipeline).
 
-- 使用するMaterialをShader Graphs/HDRPSimpleToonに設定
+## Testing Environment
+- Unity 2019.3.0f3
+- HDRP v7.1.6
 
-## 動作環境
-- Unity 2018.3.6f1
+## How To Use
+- Add "ToonShaderLightSettings.cs" to main light(Directional Light) in scene
+- Attach HDToon material to mesh.
+
+## Attention
+
+Specular parameter is currently "Experimental".
+
+Does not work properly in most cases.
+
+## Licence
+MIT Licence
