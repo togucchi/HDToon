@@ -15,7 +15,7 @@ Toon Shader for Unity HDRP (High Definition Rendering Pipeline).
 
 Specular parameter is currently "Experimental".
 
-Does not work properly in most cases.
+It does not work properly in most cases.
 
 ## Licence
 MIT Licence
